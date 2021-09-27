@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+   <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <title> Dictionary App</title>
+   <link rel="stylesheet" href="./style.css">
+</head>
+
+<body> 
+     
+     <section class="header">
+     <nav>
+     <h2 class="rainbow-text">A2Z.com</h2>
+          <div class="container">   
+               <ul>
+               <li><a href="http://127.0.0.1:5500/index.html">Home</a></li> 
+                <li><a href='#'>About Us</a></li>
+                <li><a href='#'>Services</a></li>
+               </ul>
+          </div>
+     </nav>
+     </section>
+     <section class="input container">
+        <h2>Search any word</h2>
+        <div class="form__wrap">
+            <div class="input__wrap">
+                <input type="text" placeholder="Type a word" id="input">
+                <button id="search">Search</button>
+            </div>
+        </div>
+    </section>
+    <section class="data container">
+        <span class="loading">Loading...</span>
+        <p class="def"></p>
+        <div class="audio"></div>
+        <div class="not__found"></div>
+    </section>
+    <script src="./app.js"></script>
+    
+    <footer>
+        <div class="footer-content">
+            <h3>A2Z.COM</h3>
+            <p>Learn new words daily and grow with our dictionary app</p>
+        <div class="footer-bottom">
+            <p>copyright &copy;2021 A2Z.COM. designed by <span>aishwarya</span></p>
+        </div>
+    </footer>
+</body>
+
+</html>
