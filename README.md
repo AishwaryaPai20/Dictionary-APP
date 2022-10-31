@@ -2,6 +2,10 @@
 
 ### A web app which helps you to search any word in the dictionary and get its meaning
 
+## Website
+
+Check out this [Website](https://musical-mermaid-8764a5.netlify.app)
+
 ## Screenshots
 
 #### The front page of the website consists of a header bar, search toolbar and a footer.
